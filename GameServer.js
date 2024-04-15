@@ -60,7 +60,7 @@ function GameServer() {
     this.config = {                   // Border - Right: X increases, Down: Y increases (as of 2015-05-20)
         serverMaxConnections: 64,     // Maximum amount of connections to the server.
 	    serverMaxConnPerIp: 9, 
-        serverPort: 8080,            // Server port
+        serverPort: 3000,            // Server port
         serverGamemode: 0,            // Gamemode, 0 = FFA, 1 = Teams
         serverResetTime: 0,          // Time in hours to reset (0 is off)
         serverName: 'Ogar3 Server',               // The name to display on the tracker (leave empty will show ip:port)

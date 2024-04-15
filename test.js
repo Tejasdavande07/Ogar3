@@ -6,7 +6,7 @@ const postData = JSON.stringify({
 
 const options = {
   hostname: 'spotty-frogs-watch.loca.lt',
-  port: 80,
+  port: 3000,
   path: '/list',
   method: 'POST',
   headers: {
